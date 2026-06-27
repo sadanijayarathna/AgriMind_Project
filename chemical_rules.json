@@ -1,0 +1,182 @@
+{
+  "chemicals": [
+    {
+      "name": "Calcium Nitrate",
+      "category": "Fertilizer",
+      "active_ingredient": "Calcium, Nitrogen",
+      "description": "Common nitrogen and calcium fertilizer source."
+    },
+    {
+      "name": "Monoammonium Phosphate (MAP)",
+      "category": "Fertilizer",
+      "active_ingredient": "Phosphorus, Nitrogen",
+      "description": "Phosphorus rich fertilizer source."
+    },
+    {
+      "name": "Monopotassium Phosphate (MKP)",
+      "category": "Fertilizer",
+      "active_ingredient": "Potassium, Phosphorus",
+      "description": "Potassium and phosphorus rich fertilizer source."
+    },
+    {
+      "name": "Magnesium Sulfate",
+      "category": "Fertilizer",
+      "active_ingredient": "Magnesium, Sulfur",
+      "description": "Common magnesium and sulfate sulfur source."
+    },
+    {
+      "name": "Ammonium Sulfate",
+      "category": "Fertilizer",
+      "active_ingredient": "Nitrogen, Sulfur",
+      "description": "Highly acidic nitrogen and sulfur fertilizer."
+    },
+    {
+      "name": "Urea",
+      "category": "Fertilizer",
+      "active_ingredient": "Nitrogen",
+      "description": "High concentration nitrogen fertilizer."
+    },
+    {
+      "name": "Bordeaux Mixture",
+      "category": "Fungicide",
+      "active_ingredient": "Copper Sulfate, Lime",
+      "description": "Alkaline copper-based broad spectrum fungicide."
+    },
+    {
+      "name": "Lime Sulfur",
+      "category": "Fungicide",
+      "active_ingredient": "Calcium Polysulfide",
+      "description": "Highly alkaline fungicide and miticide."
+    },
+    {
+      "name": "Captan",
+      "category": "Fungicide",
+      "active_ingredient": "Captan",
+      "description": "Organic protective contact fungicide."
+    },
+    {
+      "name": "Chlorothalonil",
+      "category": "Fungicide",
+      "active_ingredient": "Chlorothalonil",
+      "description": "Broad-spectrum organochlorine fungicide."
+    },
+    {
+      "name": "Chlorpyrifos",
+      "category": "Insecticide",
+      "active_ingredient": "Chlorpyrifos",
+      "description": "Organophosphate insecticide sensitive to alkaline hydrolysis."
+    },
+    {
+      "name": "Malathion",
+      "category": "Insecticide",
+      "active_ingredient": "Malathion",
+      "description": "Organophosphate insecticide sensitive to alkaline hydrolysis."
+    },
+    {
+      "name": "Imidacloprid",
+      "category": "Insecticide",
+      "active_ingredient": "Imidacloprid",
+      "description": "Neonicotinoid insecticide highly toxic to pollinators."
+    },
+    {
+      "name": "Neem Oil",
+      "category": "Insecticide",
+      "active_ingredient": "Azadirachtin",
+      "description": "Organic horticultural botanical oil."
+    },
+    {
+      "name": "Glyphosate",
+      "category": "Herbicide",
+      "active_ingredient": "Glyphosate",
+      "description": "Non-selective systemic herbicide."
+    },
+    {
+      "name": "2,4-D",
+      "category": "Herbicide",
+      "active_ingredient": "2,4-Dichlorophenoxyacetic acid",
+      "description": "Selective systemic herbicide for broadleaf weed control."
+    }
+  ],
+  "incompatibilities": [
+    {
+      "chemical_1": "Calcium Nitrate",
+      "chemical_2": "Magnesium Sulfate",
+      "type": "Precipitation",
+      "severity": "Blocked",
+      "reason": "Mixing Calcium and Sulfate in concentrated solution forms insoluble Calcium Sulfate (gypsum) precipitation. This clogs sprayer nozzles and renders nutrients unavailable to plants.",
+      "alternative": "Apply Calcium Nitrate and Magnesium Sulfate separately or flush lines between applications."
+    },
+    {
+      "chemical_1": "Calcium Nitrate",
+      "chemical_2": "Ammonium Sulfate",
+      "type": "Precipitation",
+      "severity": "Blocked",
+      "reason": "Calcium and Sulfate react to form Calcium Sulfate precipitate.",
+      "alternative": "Replace Ammonium Sulfate with Urea as a nitrogen source, or apply separately."
+    },
+    {
+      "chemical_1": "Calcium Nitrate",
+      "chemical_2": "Monoammonium Phosphate (MAP)",
+      "type": "Precipitation",
+      "severity": "Blocked",
+      "reason": "Calcium reacts with Phosphate to form insoluble Calcium Phosphate precipitation.",
+      "alternative": "Apply Calcium Nitrate separately or use chelated Calcium."
+    },
+    {
+      "chemical_1": "Calcium Nitrate",
+      "chemical_2": "Monopotassium Phosphate (MKP)",
+      "type": "Precipitation",
+      "severity": "Blocked",
+      "reason": "Calcium reacts with Phosphate to form insoluble Calcium Phosphate precipitation.",
+      "alternative": "Apply Potassium via Potassium Nitrate or apply MKP separately."
+    },
+    {
+      "chemical_1": "Bordeaux Mixture",
+      "chemical_2": "Chlorpyrifos",
+      "type": "Alkaline Hydrolysis",
+      "severity": "Blocked",
+      "reason": "Bordeaux Mixture is highly alkaline. Mixing it with Chlorpyrifos (organophosphate) causes rapid hydrolysis, destroying the insecticidal properties of Chlorpyrifos.",
+      "alternative": "Apply the fungicide Bordeaux Mixture first, wait 7-10 days, then apply Chlorpyrifos."
+    },
+    {
+      "chemical_1": "Bordeaux Mixture",
+      "chemical_2": "Malathion",
+      "type": "Alkaline Hydrolysis",
+      "severity": "Blocked",
+      "reason": "Alkaline nature of Bordeaux Mixture rapidly hydrolyzes and deactivates Malathion.",
+      "alternative": "Apply Malathion separately or choose a fungicide with neutral pH like Chlorothalonil."
+    },
+    {
+      "chemical_1": "Bordeaux Mixture",
+      "chemical_2": "Captan",
+      "type": "Phytotoxicity",
+      "severity": "Blocked",
+      "reason": "Mixing alkaline Bordeaux Mixture with Captan causes chemical breakdown that triggers phytotoxic injury to crop leaves (burning/leaf drop).",
+      "alternative": "Use Bordeaux Mixture alone or use Captan with a neutral fungicide."
+    },
+    {
+      "chemical_1": "Lime Sulfur",
+      "chemical_2": "Neem Oil",
+      "type": "Phytotoxicity",
+      "severity": "Blocked",
+      "reason": "Combining sulfur-based compounds like Lime Sulfur with oils (Neem Oil) creates a phytotoxic reaction that severely burns foliage and fruit.",
+      "alternative": "Ensure a minimum interval of 14 to 30 days between sulfur and oil applications."
+    },
+    {
+      "chemical_1": "Lime Sulfur",
+      "chemical_2": "Ammonium Sulfate",
+      "type": "Hazardous Gas Release",
+      "severity": "Blocked",
+      "reason": "Mixing Lime Sulfur (calcium polysulfide) with acidic materials like Ammonium Sulfate releases toxic, foul-smelling Hydrogen Sulfide (H2S) gas.",
+      "alternative": "Never mix sulfur-based compounds with acidifying agents."
+    },
+    {
+      "chemical_1": "Imidacloprid",
+      "chemical_2": "Captan",
+      "type": "Synergistic Bee Toxicity",
+      "severity": "Warning",
+      "reason": "Combining neonicotinoids (Imidacloprid) with certain fungicides (Captan) can synergistically increase the toxicity of the pesticide to honeybees, posing a high hazard to pollinators.",
+      "alternative": "Avoid tank mixing during crop bloom. Apply Imidacloprid late in the evening when bees are not foraging."
+    }
+  ]
+}
