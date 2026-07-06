@@ -1,0 +1,13 @@
+rule_id,rule_type,status,severity,used_count,covered_in_test_cases
+R001,chemical_incompatibility,UNSAFE,HIGH,1,True
+R002,chemical_incompatibility,UNSAFE,HIGH,1,True
+R003,chemical_incompatibility,WARNING,MEDIUM,1,True
+R004,chemical_incompatibility,WARNING,MEDIUM,1,True
+R005,over_application,WARNING,MEDIUM,2,True
+R006,over_application,WARNING,MEDIUM,1,True
+R007,soil_ph_rule,UNSAFE,HIGH,1,True
+R008,soil_ph_rule,WARNING,MEDIUM,1,True
+R009,growth_stage_rule,WARNING,MEDIUM,1,True
+R010,growth_stage_rule,SAFE,LOW,0,False
+R011,chemical_incompatibility,CRITICAL,CRITICAL,1,True
+R012,general_safety,WARNING,MEDIUM,1,True

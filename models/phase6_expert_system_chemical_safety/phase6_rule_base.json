@@ -1,0 +1,134 @@
+[
+    {
+        "rule_id": "R001",
+        "rule_type": "chemical_incompatibility",
+        "chemical_1": "urea",
+        "chemical_2": "lime",
+        "condition": "apply_together",
+        "status": "UNSAFE",
+        "severity": "HIGH",
+        "reason": "Urea and lime should not be mixed or applied together because ammonia volatilization can increase nitrogen loss.",
+        "recommendation": "Apply urea and lime separately with a safe time gap."
+    },
+    {
+        "rule_id": "R002",
+        "rule_type": "chemical_incompatibility",
+        "chemical_1": "ammonium sulphate",
+        "chemical_2": "lime",
+        "condition": "apply_together",
+        "status": "UNSAFE",
+        "severity": "HIGH",
+        "reason": "Ammonium fertilizers mixed with lime can increase ammonia loss and reduce fertilizer efficiency.",
+        "recommendation": "Do not mix directly. Apply separately with time gap."
+    },
+    {
+        "rule_id": "R003",
+        "rule_type": "chemical_incompatibility",
+        "chemical_1": "dap",
+        "chemical_2": "lime",
+        "condition": "apply_together",
+        "status": "WARNING",
+        "severity": "MEDIUM",
+        "reason": "Phosphate fertilizers with lime may reduce phosphorus availability in some soil conditions.",
+        "recommendation": "Avoid direct mixing. Apply according to soil test and expert advice."
+    },
+    {
+        "rule_id": "R004",
+        "rule_type": "chemical_incompatibility",
+        "chemical_1": "single super phosphate",
+        "chemical_2": "lime",
+        "condition": "apply_together",
+        "status": "WARNING",
+        "severity": "MEDIUM",
+        "reason": "Direct combination may reduce nutrient availability depending on soil condition.",
+        "recommendation": "Apply separately and monitor soil pH."
+    },
+    {
+        "rule_id": "R005",
+        "rule_type": "over_application",
+        "chemical_1": "urea",
+        "chemical_2": "",
+        "condition": "high_amount",
+        "status": "WARNING",
+        "severity": "MEDIUM",
+        "reason": "High urea application can cause nitrogen loss, leaf burn, or excessive vegetative growth.",
+        "recommendation": "Use recommended dose and split application if needed."
+    },
+    {
+        "rule_id": "R006",
+        "rule_type": "over_application",
+        "chemical_1": "mop",
+        "chemical_2": "",
+        "condition": "high_amount",
+        "status": "WARNING",
+        "severity": "MEDIUM",
+        "reason": "Excessive potassium fertilizer can disturb nutrient balance.",
+        "recommendation": "Use according to soil potassium level."
+    },
+    {
+        "rule_id": "R007",
+        "rule_type": "soil_ph_rule",
+        "chemical_1": "lime",
+        "chemical_2": "",
+        "condition": "high_ph",
+        "status": "UNSAFE",
+        "severity": "HIGH",
+        "reason": "Applying lime to already alkaline soil can further increase soil pH and reduce nutrient availability.",
+        "recommendation": "Do not apply lime when soil pH is high."
+    },
+    {
+        "rule_id": "R008",
+        "rule_type": "soil_ph_rule",
+        "chemical_1": "ammonium sulphate",
+        "chemical_2": "",
+        "condition": "low_ph",
+        "status": "WARNING",
+        "severity": "MEDIUM",
+        "reason": "Ammonium sulphate can acidify soil further when soil pH is already low.",
+        "recommendation": "Use carefully and monitor soil pH."
+    },
+    {
+        "rule_id": "R009",
+        "rule_type": "growth_stage_rule",
+        "chemical_1": "urea",
+        "chemical_2": "",
+        "condition": "late_stage_high_amount",
+        "status": "WARNING",
+        "severity": "MEDIUM",
+        "reason": "High nitrogen application at late growth stage may be wasteful and can affect crop quality.",
+        "recommendation": "Avoid high nitrogen application at late stage unless expert confirms need."
+    },
+    {
+        "rule_id": "R010",
+        "rule_type": "growth_stage_rule",
+        "chemical_1": "20:20:20 npk",
+        "chemical_2": "",
+        "condition": "normal_amount",
+        "status": "SAFE",
+        "severity": "LOW",
+        "reason": "Balanced NPK application at recommended amount is generally acceptable when nutrient need exists.",
+        "recommendation": "Apply according to recommended dose and crop requirement."
+    },
+    {
+        "rule_id": "R011",
+        "rule_type": "chemical_incompatibility",
+        "chemical_1": "copper fungicide",
+        "chemical_2": "strong acid",
+        "condition": "apply_together",
+        "status": "CRITICAL",
+        "severity": "CRITICAL",
+        "reason": "Mixing copper-based products with strong acidic materials can increase phytotoxicity risk.",
+        "recommendation": "Do not mix. Consult an agricultural expert."
+    },
+    {
+        "rule_id": "R012",
+        "rule_type": "general_safety",
+        "chemical_1": "unknown",
+        "chemical_2": "",
+        "condition": "unknown_chemical",
+        "status": "WARNING",
+        "severity": "MEDIUM",
+        "reason": "Unknown chemicals cannot be verified by the safety rule base.",
+        "recommendation": "Do not apply unknown chemical combinations without expert verification."
+    }
+]

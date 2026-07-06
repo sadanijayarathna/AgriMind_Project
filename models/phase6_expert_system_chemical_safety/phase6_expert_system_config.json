@@ -1,0 +1,28 @@
+{
+    "phase": "Phase 6",
+    "module": "Expert System Chemical Safety Checker",
+    "ai_type": "Symbolic AI / Rule-Based AI",
+    "statuses": [
+        "SAFE",
+        "WARNING",
+        "UNSAFE",
+        "CRITICAL"
+    ],
+    "status_priority": {
+        "SAFE": 0,
+        "WARNING": 1,
+        "UNSAFE": 2,
+        "CRITICAL": 3
+    },
+    "selected_features": [
+        "chemical_1",
+        "chemical_2",
+        "application_action",
+        "amount_level",
+        "soil_ph",
+        "growth_stage"
+    ],
+    "rule_base_path": "E:\\AI Project\\AgriMind_Project\\models\\phase6_expert_system_chemical_safety\\phase6_rule_base.json",
+    "safety_requirement": "False-safe cases should be zero.",
+    "integration_role": "Safety validation layer for ANN, RL, and other AI recommendations."
+}

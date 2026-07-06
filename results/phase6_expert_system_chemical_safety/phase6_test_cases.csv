@@ -1,0 +1,19 @@
+test_case_id,crop,chemical_1,chemical_2,application_action,amount_level,soil_ph,growth_stage,expected_status
+TC001,Tomato,Urea,Lime,apply_together,normal,7.2,middle,UNSAFE
+TC002,Tomato,Ammonium Sulphate,Lime,apply_together,normal,6.8,middle,UNSAFE
+TC003,Chilli,DAP,Lime,apply_together,normal,7.0,early,WARNING
+TC004,Onion,Single Super Phosphate,Lime,apply_together,normal,6.7,early,WARNING
+TC005,Tomato,Urea,,apply_single,high,6.5,middle,WARNING
+TC006,Brinjal,MOP,,apply_single,high,6.4,middle,WARNING
+TC007,Tomato,Lime,,apply_single,normal,8.2,early,UNSAFE
+TC008,Cabbage,Ammonium Sulphate,,apply_single,normal,5.4,middle,WARNING
+TC009,Tomato,Urea,,apply_single,high,6.3,late,WARNING
+TC010,Tomato,20:20:20 NPK,,apply_single,normal,6.5,middle,SAFE
+TC011,Tomato,Copper Fungicide,Strong Acid,apply_together,normal,5.8,middle,CRITICAL
+TC012,Tomato,Unknown Chemical,,apply_single,normal,6.5,middle,WARNING
+TC013,Tomato,19:19:19 NPK,,apply_single,normal,6.4,middle,SAFE
+TC014,Maize,50:26:26 NPK,,apply_single,normal,6.8,early,SAFE
+TC015,Tomato,Magnesium Sulphate,,apply_single,normal,6.5,middle,SAFE
+TC016,Tomato,Lime,,apply_single,normal,5.2,early,SAFE
+TC017,Tomato,Urea,Lime,apply_separately,normal,6.5,middle,SAFE
+TC018,Tomato,DAP,,apply_single,normal,6.5,middle,SAFE

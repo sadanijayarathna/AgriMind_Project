@@ -1,0 +1,13 @@
+rule_id,rule_type,chemical_1,chemical_2,condition,status,severity,reason,recommendation
+R001,chemical_incompatibility,urea,lime,apply_together,UNSAFE,HIGH,Urea and lime should not be mixed or applied together because ammonia volatilization can increase nitrogen loss.,Apply urea and lime separately with a safe time gap.
+R002,chemical_incompatibility,ammonium sulphate,lime,apply_together,UNSAFE,HIGH,Ammonium fertilizers mixed with lime can increase ammonia loss and reduce fertilizer efficiency.,Do not mix directly. Apply separately with time gap.
+R003,chemical_incompatibility,dap,lime,apply_together,WARNING,MEDIUM,Phosphate fertilizers with lime may reduce phosphorus availability in some soil conditions.,Avoid direct mixing. Apply according to soil test and expert advice.
+R004,chemical_incompatibility,single super phosphate,lime,apply_together,WARNING,MEDIUM,Direct combination may reduce nutrient availability depending on soil condition.,Apply separately and monitor soil pH.
+R005,over_application,urea,,high_amount,WARNING,MEDIUM,"High urea application can cause nitrogen loss, leaf burn, or excessive vegetative growth.",Use recommended dose and split application if needed.
+R006,over_application,mop,,high_amount,WARNING,MEDIUM,Excessive potassium fertilizer can disturb nutrient balance.,Use according to soil potassium level.
+R007,soil_ph_rule,lime,,high_ph,UNSAFE,HIGH,Applying lime to already alkaline soil can further increase soil pH and reduce nutrient availability.,Do not apply lime when soil pH is high.
+R008,soil_ph_rule,ammonium sulphate,,low_ph,WARNING,MEDIUM,Ammonium sulphate can acidify soil further when soil pH is already low.,Use carefully and monitor soil pH.
+R009,growth_stage_rule,urea,,late_stage_high_amount,WARNING,MEDIUM,High nitrogen application at late growth stage may be wasteful and can affect crop quality.,Avoid high nitrogen application at late stage unless expert confirms need.
+R010,growth_stage_rule,20:20:20 npk,,normal_amount,SAFE,LOW,Balanced NPK application at recommended amount is generally acceptable when nutrient need exists.,Apply according to recommended dose and crop requirement.
+R011,chemical_incompatibility,copper fungicide,strong acid,apply_together,CRITICAL,CRITICAL,Mixing copper-based products with strong acidic materials can increase phytotoxicity risk.,Do not mix. Consult an agricultural expert.
+R012,general_safety,unknown,,unknown_chemical,WARNING,MEDIUM,Unknown chemicals cannot be verified by the safety rule base.,Do not apply unknown chemical combinations without expert verification.

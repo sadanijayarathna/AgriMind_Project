@@ -1,0 +1,2 @@
+Accuracy,Precision,Recall,F1_score,Total_Test_Cases,Correct_Predictions,Wrong_Predictions
+1.0,1.0,1.0,1.0,18,18,0
