@@ -1,0 +1,76 @@
+{
+    "phase": "Phase 4",
+    "module": "ANN Fertilizer Recommendation",
+    "source_of_dataset": "Kaggle: Crop and Fertilizer Dataset for Western Maharashtra. Saved locally as Crop and fertilizer dataset.csv.",
+    "dataset_characteristics": {
+        "dataset_path": "E:\\AI Project\\AgriMind_Project\\datasets\\Fertilizer_Recomendation_Dataset\\Crop and fertilizer dataset.csv",
+        "dataset_source": "Kaggle: Crop and Fertilizer Dataset for Western Maharashtra. Saved locally as Crop and fertilizer dataset.csv.",
+        "number_of_rows": 4513,
+        "number_of_columns": 11,
+        "column_names": [
+            "District_Name",
+            "Soil_color",
+            "Nitrogen",
+            "Phosphorus",
+            "Potassium",
+            "pH",
+            "Rainfall",
+            "Temperature",
+            "Crop",
+            "Fertilizer",
+            "Link"
+        ],
+        "total_missing_values": 0,
+        "duplicate_rows": 0
+    },
+    "preprocessing_steps": {
+        "importing_libraries": true,
+        "importing_dataset": true,
+        "train_validation_test_split": "70% training, 15% validation, 15% testing",
+        "handling_missing_values": "Numerical median and categorical mode",
+        "treating_outliers": "IQR clipping for numerical feature columns",
+        "duplicate_records": "Removed using drop_duplicates",
+        "feature_scaling": "StandardScaler",
+        "handling_categorical_variables": "One-hot encoding for categorical input features and LabelEncoder for fertilizer target",
+        "feature_selection": "Target removed; link/id-like columns removed; soil, crop, NPK, pH, rainfall, temperature, and location features retained"
+    },
+    "model_architecture": {
+        "type": "Artificial Neural Network",
+        "layers": [
+            "Dense 128 ReLU",
+            "BatchNormalization",
+            "Dropout 0.30",
+            "Dense 64 ReLU",
+            "BatchNormalization",
+            "Dropout 0.20",
+            "Dense 32 ReLU",
+            "Dense output Softmax"
+        ],
+        "optimizer": "Adam",
+        "loss_function": "Sparse Categorical Crossentropy"
+    },
+    "overfitting_underfitting_control": [
+        "Validation set",
+        "Dropout layers",
+        "Batch normalization",
+        "Early stopping",
+        "ReduceLROnPlateau",
+        "Training vs validation accuracy/loss graphs"
+    ],
+    "evaluation_metrics": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1-score",
+        "Confusion matrix",
+        "Classification report"
+    ],
+    "experimental_results": {
+        "test_loss": 0.7168115377426147,
+        "accuracy": 0.6277695716395865,
+        "precision": 0.6294050619509438,
+        "recall": 0.6277695716395865,
+        "f1_score": 0.6166050240538397,
+        "fit_diagnosis": "No strong overfitting/underfitting sign based on final train-validation values."
+    }
+}

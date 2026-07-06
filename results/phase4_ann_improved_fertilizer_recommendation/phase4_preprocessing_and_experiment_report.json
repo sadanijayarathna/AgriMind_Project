@@ -1,0 +1,72 @@
+{
+    "phase": "Phase 4",
+    "module": "Improved ANN Fertilizer Recommendation",
+    "source_of_dataset": "Kaggle: Crop and Fertilizer Dataset for Western Maharashtra. Saved locally as Crop and fertilizer dataset.csv.",
+    "dataset_characteristics": {
+        "dataset_path": "E:\\AI Project\\AgriMind_Project\\datasets\\Fertilizer_Recomendation_Dataset\\Crop and fertilizer dataset.csv",
+        "dataset_source": "Kaggle: Crop and Fertilizer Dataset for Western Maharashtra. Saved locally as Crop and fertilizer dataset.csv.",
+        "number_of_rows": 4513,
+        "number_of_columns": 11,
+        "column_names": [
+            "District_Name",
+            "Soil_color",
+            "Nitrogen",
+            "Phosphorus",
+            "Potassium",
+            "pH",
+            "Rainfall",
+            "Temperature",
+            "Crop",
+            "Fertilizer",
+            "Link"
+        ],
+        "total_missing_values": 0,
+        "duplicate_rows": 0
+    },
+    "preprocessing_steps": {
+        "importing_libraries": true,
+        "importing_dataset": true,
+        "train_validation_test_split": "80% training, 10% validation, 10% testing",
+        "handling_missing_values": "Numerical median and categorical mode",
+        "treating_outliers": "IQR clipping for numerical feature columns",
+        "duplicate_records": "Removed using drop_duplicates",
+        "feature_scaling": "StandardScaler",
+        "handling_categorical_variables": "One-hot encoding for categorical input features and LabelEncoder for fertilizer target",
+        "feature_engineering": "NPK total, NPK ratios, pH category, and crop-soil combination when columns are available",
+        "feature_selection": "Target removed; link/id-like columns removed; soil, crop, NPK, pH, rainfall, temperature, and location features retained"
+    },
+    "model_architecture": {
+        "type": "Artificial Neural Network",
+        "best_config": "strong_3",
+        "optimizer": "Adam",
+        "loss_function": "Sparse Categorical Crossentropy"
+    },
+    "overfitting_underfitting_control": [
+        "Validation set",
+        "Dropout layers",
+        "Batch normalization",
+        "Early stopping",
+        "ReduceLROnPlateau",
+        "Class weights",
+        "Training vs validation accuracy/loss graphs",
+        "Multiple ANN configuration comparison"
+    ],
+    "evaluation_metrics": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1-score",
+        "Top-3 accuracy",
+        "Confusion matrix",
+        "Classification report"
+    ],
+    "experimental_results": {
+        "test_loss": 0.16542138159275055,
+        "accuracy": 0.9845132743362832,
+        "precision": 0.987924041297935,
+        "recall": 0.9845132743362832,
+        "f1_score": 0.9852794880772863,
+        "top3_accuracy": 0.9977876106194691,
+        "fit_diagnosis": "No strong overfitting/underfitting sign based on train-validation values."
+    }
+}

@@ -1,0 +1,2 @@
+Final_Training_Loss,Final_Validation_Loss,Final_Training_Accuracy,Final_Validation_Accuracy,Loss_Gap,Accuracy_Gap,Diagnosis
+0.7415898442268372,0.7561340928077698,0.6274137496948242,0.6174298524856567,0.014544248580932617,0.00998389720916748,No strong overfitting/underfitting sign based on final train-validation values.

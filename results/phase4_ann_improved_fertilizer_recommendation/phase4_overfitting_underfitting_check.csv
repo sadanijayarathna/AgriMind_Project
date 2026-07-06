@@ -1,0 +1,2 @@
+Best_Config,Training_Loss,Validation_Loss,Training_Accuracy,Validation_Accuracy,Loss_Gap,Accuracy_Gap,Diagnosis
+strong_3,0.016528913751244545,0.0731150284409523,0.9930747747421265,0.9889135360717773,0.056586114689707756,0.004161238670349121,No strong overfitting/underfitting sign based on train-validation values.

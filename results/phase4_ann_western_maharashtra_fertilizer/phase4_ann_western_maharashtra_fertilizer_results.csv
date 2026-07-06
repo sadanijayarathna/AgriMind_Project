@@ -1,0 +1,2 @@
+Phase,Module,Dataset,Model,Accuracy,Precision,Recall,F1_score,Test_Loss,Target_Column,Number_of_Classes,Number_of_Original_Features,Number_of_Encoded_Features
+Phase 4,ANN Fertilizer Recommendation,Crop and Fertilizer Dataset for Western Maharashtra,Artificial Neural Network,0.6277695716395865,0.6294050619509438,0.6277695716395865,0.6166050240538397,0.7168115377426147,fertilizer,19,9,34

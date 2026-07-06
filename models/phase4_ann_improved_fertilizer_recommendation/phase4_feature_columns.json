@@ -1,0 +1,17 @@
+[
+    "district_name",
+    "soil_color",
+    "nitrogen",
+    "phosphorus",
+    "potassium",
+    "ph",
+    "rainfall",
+    "temperature",
+    "crop",
+    "npk_total",
+    "n_to_p_ratio",
+    "n_to_k_ratio",
+    "p_to_k_ratio",
+    "ph_category",
+    "crop_soil_combination"
+]

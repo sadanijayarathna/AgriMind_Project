@@ -1,0 +1,21 @@
+Sample,Actual Fertilizer,Predicted Fertilizer,Confidence (%),Top 3 Suggestions,Correct
+1,Urea,Urea,100.0,"Urea, DAP, SSP",True
+2,DAP,DAP,100.0,"DAP, MOP, Urea",True
+3,Ferrous Sulphate,White Potash,70.13,"White Potash, Ferrous Sulphate, Urea",False
+4,19:19:19 NPK,19:19:19 NPK,100.0,"19:19:19 NPK, Urea, SSP",True
+5,Urea,Urea,100.0,"Urea, 19:19:19 NPK, SSP",True
+6,12:32:16 NPK,12:32:16 NPK,100.0,"12:32:16 NPK, DAP, Magnesium Sulphate",True
+7,MOP,DAP,82.16,"DAP, MOP, Urea",False
+8,10:26:26 NPK,10:26:26 NPK,100.0,"10:26:26 NPK, Urea, SSP",True
+9,SSP,SSP,100.0,"SSP, MOP, Urea",True
+10,DAP,DAP,100.0,"DAP, 13:32:26 NPK, Magnesium Sulphate",True
+11,SSP,SSP,100.0,"SSP, Urea, Chilated Micronutrient",True
+12,Magnesium Sulphate,Magnesium Sulphate,100.0,"Magnesium Sulphate, DAP, 12:32:16 NPK",True
+13,Urea,Urea,100.0,"Urea, 50:26:26 NPK, SSP",True
+14,19:19:19 NPK,19:19:19 NPK,100.0,"19:19:19 NPK, Urea, SSP",True
+15,Urea,Urea,99.99,"Urea, SSP, 10:26:26 NPK",True
+16,12:32:16 NPK,12:32:16 NPK,100.0,"12:32:16 NPK, DAP, Magnesium Sulphate",True
+17,Urea,Urea,100.0,"Urea, SSP, DAP",True
+18,MOP,MOP,100.0,"MOP, Urea, DAP",True
+19,Magnesium Sulphate,Magnesium Sulphate,100.0,"Magnesium Sulphate, DAP, 12:32:16 NPK",True
+20,MOP,MOP,100.0,"MOP, Urea, SSP",True
