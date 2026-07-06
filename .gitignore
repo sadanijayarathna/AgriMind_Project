@@ -1,0 +1,4 @@
+# Local datasets and extracted training files
+/datasets/Tomato leaf disease detection/train/
+/datasets/Tomato leaf disease detection/val/
+/datasets/archive.zip

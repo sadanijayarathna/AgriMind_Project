@@ -1,0 +1,2 @@
+Module,Model,Accuracy,Precision,Recall,F1-score,Test Loss
+Privacy-Preserving Disease Detection,Federated CNN,0.7226027397260274,0.8082644770681449,0.7226027397260274,0.761022818136014,0.7409313917160034
