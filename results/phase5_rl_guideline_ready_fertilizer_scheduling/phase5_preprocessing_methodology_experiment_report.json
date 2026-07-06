@@ -1,0 +1,119 @@
+{
+    "phase": "Phase 5",
+    "objective": "Reinforcement Learning fertilizer scheduling agent",
+    "dataset_source": "Kaggle: Crop and Fertilizer Dataset for Western Maharashtra. The dataset is used here to create realistic initial states for the simulated RL fertilizer scheduling environment.",
+    "dataset_characteristics": {
+        "dataset_path": "E:\\AI Project\\AgriMind_Project\\datasets\\Fertilizer_Recomendation_Dataset\\Crop and fertilizer dataset.csv",
+        "dataset_source": "Kaggle: Crop and Fertilizer Dataset for Western Maharashtra. The dataset is used here to create realistic initial states for the simulated RL fertilizer scheduling environment.",
+        "number_of_rows": 4513,
+        "number_of_columns": 11,
+        "column_names": [
+            "District_Name",
+            "Soil_color",
+            "Nitrogen",
+            "Phosphorus",
+            "Potassium",
+            "pH",
+            "Rainfall",
+            "Temperature",
+            "Crop",
+            "Fertilizer",
+            "Link"
+        ],
+        "total_missing_values": 0,
+        "duplicate_rows": 0
+    },
+    "why_simulated_environment": "Real farm trial-and-error fertilizer scheduling data is not available. Therefore, a simulated RL environment was designed using realistic agricultural features from the Phase 4 fertilizer dataset. The objective is to learn a strategy that improves crop condition while reducing fertilizer cost and avoiding unnecessary fertilizer use.",
+    "preprocessing_steps": {
+        "importing_libraries": true,
+        "importing_dataset": true,
+        "duplicate_removal": {
+            "rows_before_duplicate_removal": 4513,
+            "rows_after_duplicate_removal": 4513,
+            "duplicate_rows_removed": 0
+        },
+        "missing_values": "Median for numerical features and mode for categorical features",
+        "outlier_treatment": "IQR clipping for numerical features",
+        "categorical_handling": "One-hot encoding for documentation and environment feature matrix",
+        "feature_scaling": "StandardScaler applied to encoded feature matrix",
+        "train_test_split": "80% environment states for training starts, 20% held-out states for testing",
+        "feature_selection": {
+            "selected_features": [
+                "district_name",
+                "soil_color",
+                "nitrogen",
+                "phosphorus",
+                "potassium",
+                "ph",
+                "rainfall",
+                "temperature",
+                "crop"
+            ],
+            "removed_reason": "Removed target fertilizer column and link/url/id-like columns.",
+            "purpose": "Selected features are used to construct RL environment states."
+        },
+        "state_creation": "nutrient need, price level, crop health level, and growth stage"
+    },
+    "rl_environment": {
+        "states": {
+            "nutrient_need_level": "0 low, 1 medium, 2 high",
+            "price_level": "0 low, 1 medium, 2 high",
+            "crop_health_level": "0 poor, 1 average, 2 good",
+            "growth_stage": "0 early, 1 middle, 2 late"
+        },
+        "actions": {
+            "0": "Do nothing",
+            "1": "Apply low fertilizer amount",
+            "2": "Apply normal fertilizer amount",
+            "3": "Apply high fertilizer amount",
+            "4": "Wait because fertilizer price is high"
+        },
+        "reward_function": "Reward increases when the action matches nutrient need and improves crop condition. Reward decreases for high cost, over-application, under-application, late excessive application, and unnecessary fertilizer use."
+    },
+    "algorithm": {
+        "name": "Q-learning",
+        "learning_rate": 0.1,
+        "discount_factor": 0.95,
+        "initial_epsilon": 1.0,
+        "epsilon_decay": 0.995,
+        "minimum_epsilon": 0.05,
+        "episodes": 6000,
+        "max_steps_per_episode": 20
+    },
+    "evaluation_metrics": [
+        "Initial average reward",
+        "Final average reward",
+        "Reward improvement",
+        "Train average reward",
+        "Test average reward",
+        "Random policy baseline reward",
+        "Test improvement over random policy",
+        "Train-test reward gap",
+        "Policy action distribution",
+        "Learned policy table"
+    ],
+    "experimental_results": {
+        "initial_average_reward_first_100": -54.80660000000001,
+        "final_average_reward_last_100": 130.3576,
+        "reward_improvement": 185.1642,
+        "train_average_reward": 145.56495999999999,
+        "test_average_reward": 145.5044,
+        "random_test_average_reward": -122.33208,
+        "test_improvement_over_random": 267.83648,
+        "fit_diagnosis": "No strong overfitting/underfitting sign: learned policy generalizes to held-out test states.",
+        "final_epsilon": 0.05
+    },
+    "visualizations": {
+        "reward_graph": "E:\\AI Project\\AgriMind_Project\\screenshots\\phase5_rl_guideline_ready_fertilizer_scheduling\\phase5_rl_episode_rewards.png",
+        "moving_average_reward_graph": "E:\\AI Project\\AgriMind_Project\\screenshots\\phase5_rl_guideline_ready_fertilizer_scheduling\\phase5_rl_moving_average_reward.png",
+        "policy_reward_comparison": "E:\\AI Project\\AgriMind_Project\\screenshots\\phase5_rl_guideline_ready_fertilizer_scheduling\\phase5_rl_policy_reward_comparison.png",
+        "action_distribution": "E:\\AI Project\\AgriMind_Project\\screenshots\\phase5_rl_guideline_ready_fertilizer_scheduling\\phase5_rl_action_distribution.png",
+        "policy_heatmap": "E:\\AI Project\\AgriMind_Project\\screenshots\\phase5_rl_guideline_ready_fertilizer_scheduling\\phase5_rl_policy_heatmap.png"
+    },
+    "outputs": {
+        "q_table": "E:\\AI Project\\AgriMind_Project\\models\\phase5_rl_guideline_ready_fertilizer_scheduling\\phase5_q_table.npy",
+        "policy_table": "E:\\AI Project\\AgriMind_Project\\results\\phase5_rl_guideline_ready_fertilizer_scheduling\\phase5_rl_learned_policy_table.csv",
+        "test_recommendations": "E:\\AI Project\\AgriMind_Project\\results\\phase5_rl_guideline_ready_fertilizer_scheduling\\phase5_rl_test_recommendations.csv",
+        "results_csv": "E:\\AI Project\\AgriMind_Project\\results\\phase5_rl_guideline_ready_fertilizer_scheduling\\phase5_rl_fertilizer_scheduling_results.csv"
+    }
+}

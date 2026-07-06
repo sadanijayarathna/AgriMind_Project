@@ -1,0 +1,2 @@
+Phase,Module,Algorithm,Number_of_States,Number_of_Actions,Episodes,Max_Steps_Per_Episode,Initial_Average_Reward_First_100,Final_Average_Reward_Last_100,Reward_Improvement,Train_Average_Reward,Test_Average_Reward,Random_Test_Average_Reward,Test_Improvement_Over_Random,Final_Epsilon,Fit_Diagnosis
+Phase 5,Guideline-Ready RL Fertilizer Scheduling Agent,Q-learning,81,5,6000,20,-54.80660000000001,130.3576,185.1642,145.56495999999999,145.5044,-122.33208,267.83648,0.05,No strong overfitting/underfitting sign: learned policy generalizes to held-out test states.

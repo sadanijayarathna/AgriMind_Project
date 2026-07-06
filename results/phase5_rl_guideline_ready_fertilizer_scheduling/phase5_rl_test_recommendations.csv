@@ -1,0 +1,8 @@
+Nutrient Need,Price Level,Crop Health,Growth Stage,Recommended Action,Q Value
+High need,Low price,Poor health,Middle stage,Apply high fertilizer amount,139.74341313832085
+High need,High price,Poor health,Middle stage,Apply high fertilizer amount,133.811273585594
+Low need,High price,Good health,Late stage,Do nothing,159.99999999999676
+Medium need,Medium price,Average health,Middle stage,Apply normal fertilizer amount,158.9999901421513
+Low need,Low price,Good health,Early stage,Do nothing,159.99999999999676
+Medium need,High price,Poor health,Late stage,Apply low fertilizer amount,67.92975319017714
+High need,Medium price,Average health,Early stage,Apply normal fertilizer amount,157.96888520697271

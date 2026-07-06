@@ -1,0 +1,82 @@
+Nutrient_Need_Level,Price_Level,Crop_Health_Level,Growth_Stage,Best_Action_ID,Best_Action,Best_Q_Value
+0,0,0,0,2,Apply normal fertilizer amount,57.958437739530815
+0,0,0,1,2,Apply normal fertilizer amount,116.40044561293321
+0,0,0,2,4,Wait because fertilizer price is high,85.27608999606679
+0,0,1,0,4,Wait because fertilizer price is high,130.3251005857827
+0,0,1,1,3,Apply high fertilizer amount,136.99999999999412
+0,0,1,2,3,Apply high fertilizer amount,128.99999999628182
+0,0,2,0,0,Do nothing,159.99999999999676
+0,0,2,1,0,Do nothing,159.99999999999676
+0,0,2,2,0,Do nothing,159.99999999999676
+0,1,0,0,3,Apply high fertilizer amount,58.518027692503004
+0,1,0,1,2,Apply normal fertilizer amount,107.92757792329249
+0,1,0,2,4,Wait because fertilizer price is high,84.87254210073453
+0,1,1,0,3,Apply high fertilizer amount,135.4999999999967
+0,1,1,1,3,Apply high fertilizer amount,135.49999999999676
+0,1,1,2,2,Apply normal fertilizer amount,138.99999999608897
+0,1,2,0,0,Do nothing,159.99999999999676
+0,1,2,1,0,Do nothing,159.99999999999676
+0,1,2,2,0,Do nothing,159.99999999999676
+0,2,0,0,0,Do nothing,50.04692284588561
+0,2,0,1,4,Wait because fertilizer price is high,64.0031260879657
+0,2,0,2,2,Apply normal fertilizer amount,105.96606436800619
+0,2,1,0,3,Apply high fertilizer amount,133.3999994494748
+0,2,1,1,3,Apply high fertilizer amount,133.39999999962345
+0,2,1,2,3,Apply high fertilizer amount,125.39935431527275
+0,2,2,0,0,Do nothing,159.99999999999676
+0,2,2,1,0,Do nothing,159.99999999999676
+0,2,2,2,0,Do nothing,159.99999999999676
+1,0,0,0,2,Apply normal fertilizer amount,135.2520701308687
+1,0,0,1,1,Apply low fertilizer amount,107.05699313996399
+1,0,0,2,1,Apply low fertilizer amount,72.40734649261904
+1,0,1,0,2,Apply normal fertilizer amount,159.9999999948082
+1,0,1,1,2,Apply normal fertilizer amount,159.99999946309646
+1,0,1,2,2,Apply normal fertilizer amount,157.99831133874383
+1,0,2,0,1,Apply low fertilizer amount,155.4287188180317
+1,0,2,1,3,Apply high fertilizer amount,132.82378121187864
+1,0,2,2,1,Apply low fertilizer amount,152.31032032805456
+1,1,0,0,2,Apply normal fertilizer amount,132.41704483808866
+1,1,0,1,3,Apply high fertilizer amount,116.20644961352409
+1,1,0,2,3,Apply high fertilizer amount,107.13328593316433
+1,1,1,0,1,Apply low fertilizer amount,132.95959734926677
+1,1,1,1,2,Apply normal fertilizer amount,158.9999901421513
+1,1,1,2,2,Apply normal fertilizer amount,156.99999998626808
+1,1,2,0,2,Apply normal fertilizer amount,158.99563013507853
+1,1,2,1,2,Apply normal fertilizer amount,158.9980110802554
+1,1,2,2,1,Apply low fertilizer amount,139.35823273126113
+1,2,0,0,1,Apply low fertilizer amount,37.050419215706945
+1,2,0,1,2,Apply normal fertilizer amount,131.72453204730797
+1,2,0,2,1,Apply low fertilizer amount,67.92975319017714
+1,2,1,0,1,Apply low fertilizer amount,130.83450379311924
+1,2,1,1,2,Apply normal fertilizer amount,157.59999305465976
+1,2,1,2,2,Apply normal fertilizer amount,155.5999381714271
+1,2,2,0,2,Apply normal fertilizer amount,150.3640781247146
+1,2,2,1,3,Apply high fertilizer amount,128.75180295484444
+1,2,2,2,1,Apply low fertilizer amount,106.9081295255512
+2,0,0,0,2,Apply normal fertilizer amount,159.51433282914934
+2,0,0,1,3,Apply high fertilizer amount,139.74341313832085
+2,0,0,2,3,Apply high fertilizer amount,118.1362634549297
+2,0,1,0,3,Apply high fertilizer amount,155.97339855903382
+2,0,1,1,3,Apply high fertilizer amount,155.9535402648928
+2,0,1,2,3,Apply high fertilizer amount,145.85378852662197
+2,0,2,0,0,Do nothing,0.0
+2,0,2,1,0,Do nothing,0.0
+2,0,2,2,0,Do nothing,0.0
+2,1,0,0,3,Apply high fertilizer amount,137.80392807973024
+2,1,0,1,3,Apply high fertilizer amount,138.76984604343068
+2,1,0,2,2,Apply normal fertilizer amount,154.30844798124528
+2,1,1,0,2,Apply normal fertilizer amount,157.96888520697271
+2,1,1,1,0,Do nothing,121.7900493995129
+2,1,1,2,3,Apply high fertilizer amount,143.56984382516265
+2,1,2,0,0,Do nothing,0.0
+2,1,2,1,0,Do nothing,0.0
+2,1,2,2,0,Do nothing,0.0
+2,2,0,0,2,Apply normal fertilizer amount,141.06184109976314
+2,2,0,1,3,Apply high fertilizer amount,133.811273585594
+2,2,0,2,2,Apply normal fertilizer amount,151.49117235811866
+2,2,1,0,3,Apply high fertilizer amount,150.1092521071932
+2,2,1,1,1,Apply low fertilizer amount,150.2214386445703
+2,2,1,2,1,Apply low fertilizer amount,145.7246400215493
+2,2,2,0,0,Do nothing,0.0
+2,2,2,1,0,Do nothing,0.0
+2,2,2,2,0,Do nothing,0.0
