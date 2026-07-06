@@ -1,0 +1,5 @@
+Area,Limitation,Honest_Report_Note
+Phase 3 Dataset,Direct pesticide/fertilizer price datasets were limited.,Crop price forecasting was used as a related agricultural market price forecasting component.
+Phase 5 RL Environment,Real farm trial-and-error fertilizer scheduling data was not available.,A simulated RL farming environment was created using realistic agricultural states.
+Phase 6 Expert System,Rule base is manually created for prototype level.,Production systems should validate and expand rules using official agricultural handbooks and domain experts.
+System Integration,Final notebook summarizes modules rather than deploying a full mobile/web application.,Future work can integrate all models into a complete mobile advisory app.

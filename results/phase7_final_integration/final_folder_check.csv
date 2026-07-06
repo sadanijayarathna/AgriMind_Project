@@ -1,0 +1,19 @@
+Phase,Folder_Type,Path,Exists
+phase1_cnn,model_dir,E:\AI Project\AgriMind_Project\models\phase1_cnn,True
+phase1_cnn,results_dir,E:\AI Project\AgriMind_Project\results\phase1_cnn,True
+phase1_cnn,screenshots_dir,E:\AI Project\AgriMind_Project\screenshots\phase1_cnn,True
+phase2_federated_cnn,model_dir,E:\AI Project\AgriMind_Project\models\phase2_federated_cnn,True
+phase2_federated_cnn,results_dir,E:\AI Project\AgriMind_Project\results\phase2_federated_cnn,True
+phase2_federated_cnn,screenshots_dir,E:\AI Project\AgriMind_Project\screenshots\phase2_federated_cnn,True
+phase3_crop_price_forecasting,model_dir,E:\AI Project\AgriMind_Project\models\phase3_crop_price_forecasting,True
+phase3_crop_price_forecasting,results_dir,E:\AI Project\AgriMind_Project\results\phase3_crop_price_forecasting,True
+phase3_crop_price_forecasting,screenshots_dir,E:\AI Project\AgriMind_Project\screenshots\phase3_crop_price_forecasting,True
+phase4_ann_fertilizer,model_dir,E:\AI Project\AgriMind_Project\models\phase4_ann_improved_fertilizer_recommendation,True
+phase4_ann_fertilizer,results_dir,E:\AI Project\AgriMind_Project\results\phase4_ann_improved_fertilizer_recommendation,True
+phase4_ann_fertilizer,screenshots_dir,E:\AI Project\AgriMind_Project\screenshots\phase4_ann_improved_fertilizer_recommendation,True
+phase5_rl_scheduling,model_dir,E:\AI Project\AgriMind_Project\models\phase5_rl_guideline_ready_fertilizer_scheduling,True
+phase5_rl_scheduling,results_dir,E:\AI Project\AgriMind_Project\results\phase5_rl_guideline_ready_fertilizer_scheduling,True
+phase5_rl_scheduling,screenshots_dir,E:\AI Project\AgriMind_Project\screenshots\phase5_rl_guideline_ready_fertilizer_scheduling,True
+phase6_expert_system,model_dir,E:\AI Project\AgriMind_Project\models\phase6_expert_system_chemical_safety,True
+phase6_expert_system,results_dir,E:\AI Project\AgriMind_Project\results\phase6_expert_system_chemical_safety,True
+phase6_expert_system,screenshots_dir,E:\AI Project\AgriMind_Project\screenshots\phase6_expert_system_chemical_safety,True

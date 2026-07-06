@@ -1,0 +1,6 @@
+Improvement,Reason
+Use real fertilizer and pesticide price datasets,To improve Objective 2 alignment with pesticide/supply price forecasting.
+Collect real field trial data for RL,To replace the simulated environment with real farm decision outcomes.
+Expand Expert System rule base,"To cover more chemical combinations, crop-specific restrictions, and official safety guidelines."
+Develop mobile application,To deliver disease detection and advisory outputs directly to farmers.
+Connect all modules through an API,To make the AgriMind system usable as one integrated software platform.

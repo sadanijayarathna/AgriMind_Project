@@ -1,0 +1,7 @@
+Phase,Component,AI_Type,Main_Result,Key_Metric,Status
+Phase 1,CNN Plant Disease Detection,CNN / Deep Learning,Trained centralized CNN disease detection model,Refer Phase 1 results folder,Completed
+Phase 2,Federated CNN Disease Detection,Federated Learning + CNN,Trained federated CNN disease detection model,Refer Phase 2 results folder,Completed
+Phase 3,Crop Price Forecasting,RNN / LSTM / GRU,Best model: GRU; Selected commodity: Coconut,"GRU RMSE = 656.35, R² = 0.4382",Completed
+Phase 4,ANN Fertilizer Recommendation,Artificial Neural Network,Improved ANN fertilizer recommendation model,"Accuracy = 98.45%, F1-score = 98.53%",Completed
+Phase 5,RL Fertilizer Scheduling Agent,Q-learning / Reinforcement Learning,RL policy learned fertilizer scheduling actions,Reward improvement = 185.1642; Test improvement over random = 267.8365,Completed
+Phase 6,Expert System Chemical Safety Checker,Symbolic AI / Rule-Based AI,Rule-based safety checker with 12 rules,Accuracy = 100%; False-safe cases = 0; Rule coverage = 91.67%,Completed

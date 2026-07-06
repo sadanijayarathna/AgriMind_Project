@@ -1,0 +1,43 @@
+{
+    "farmer_input": {
+        "crop": "Tomato",
+        "leaf_image_status": "Disease detection module executed",
+        "soil_condition": {
+            "nitrogen": "Medium",
+            "phosphorus": "Medium",
+            "potassium": "Medium",
+            "soil_ph": 6.5
+        },
+        "growth_stage": "Middle"
+    },
+    "phase_outputs": {
+        "phase1_cnn": {
+            "output": "Plant disease detected / healthy status returned by CNN",
+            "note": "Refer Phase 1 model output for exact class."
+        },
+        "phase2_federated_cnn": {
+            "output": "Privacy-preserving federated CNN model completed",
+            "note": "Farmer images are not directly uploaded to central server."
+        },
+        "phase3_forecasting": {
+            "best_model": "GRU",
+            "forecasting_target": "avg_modal_price",
+            "selected_commodity": "Coconut",
+            "note": "Used as related agricultural market price forecasting component."
+        },
+        "phase4_ann": {
+            "output": "ANN recommends suitable fertilizer",
+            "performance": "98.45% accuracy"
+        },
+        "phase5_rl": {
+            "output": "Apply normal fertilizer amount",
+            "reason": "RL policy balances nutrient need, crop health, growth stage, and cost."
+        },
+        "phase6_expert_system": {
+            "safety_status": "SAFE",
+            "reason": "No unsafe rule triggered.",
+            "recommendation": "Apply according to recommended dosage and local agricultural guidance."
+        }
+    },
+    "final_farmer_advice": "Use the recommended fertilizer at the normal amount, follow the RL schedule, and apply only after the Expert System confirms that the recommendation is safe."
+}

@@ -1,0 +1,6 @@
+Objective,Proposal Requirement,Completed Phase,AI Type,Main Output,Status
+Objective 1,CNN plant disease detection using Federated Learning for privacy,Phase 1 + Phase 2,CNN + Federated Learning,Disease detection model and federated CNN model,Completed
+Objective 2,"Compare RNN, LSTM, and GRU for future price prediction",Phase 3,RNN / LSTM / GRU,"Best forecasting model selected using MAE, RMSE, MAPE, and R²",Completed
+Objective 3,RL agent for optimal fertilizer schedule with minimum cost,Phase 5,Reinforcement Learning / Q-learning,RL policy for fertilizer scheduling,Completed
+Objective 4,Expert System to prevent unsafe chemical combinations,Phase 6,Symbolic AI / Rule-Based AI,Chemical safety checker,Completed
+Objective 5,ANN to analyze soil test numbers and recommend nutrients,Phase 4,Artificial Neural Network,Fertilizer recommendation model,Completed

@@ -1,0 +1,8 @@
+Step,Module,Input,Processing,Output
+1,CNN Disease Detection,Farmer captures/uploads crop leaf image,CNN detects plant disease condition,Disease class and confidence
+2,Federated Learning,Local farmer device data,Model learns locally without uploading private images,Privacy-preserving disease detection model update
+3,Price Forecasting,Historical crop/agricultural price sequence,"RNN, LSTM, and GRU compare future price prediction",Best forecasting model: GRU
+4,ANN Fertilizer Recommendation,"Soil, crop, NPK, pH, rainfall, temperature data",ANN predicts suitable fertilizer,Recommended fertilizer
+5,RL Fertilizer Scheduling,"Nutrient need, price level, crop health, growth stage",Q-learning selects cost-aware scheduling action,Apply low / normal / high amount or wait
+6,Expert System Safety Checker,Fertilizer/chemical recommendation,Rule base checks unsafe combinations and conditions,SAFE / WARNING / UNSAFE / CRITICAL with reason
+7,Final Advisory,Outputs of all AI modules,"Combine disease, price, fertilizer, schedule, and safety outputs",Final safe and cost-aware advice to farmer
