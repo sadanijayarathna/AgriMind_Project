@@ -1,0 +1,14 @@
+Phase,File_Type,Path
+Phase 1,Model,E:\AI Project\AgriMind_Project\models\phase1_cnn\agrimind_tomato_cnn_model.h5
+Phase 1,Model,E:\AI Project\AgriMind_Project\models\phase1_cnn\agrimind_tomato_cnn_model.keras
+Phase 1,Model,E:\AI Project\AgriMind_Project\models\phase1_cnn\class_names.json
+Phase 1,Result,E:\AI Project\AgriMind_Project\results\phase1_cnn\phase1_cnn_results.csv
+Phase 2,Model,E:\AI Project\AgriMind_Project\models\phase2_federated_cnn\agrimind_federated_cnn_model.h5
+Phase 2,Model,E:\AI Project\AgriMind_Project\models\phase2_federated_cnn\agrimind_federated_cnn_model.keras
+Phase 2,Model,E:\AI Project\AgriMind_Project\models\phase2_federated_cnn\class_names.json
+Phase 2,Result,E:\AI Project\AgriMind_Project\results\phase2_federated_cnn\centralized_vs_federated_comparison.csv
+Phase 2,Result,E:\AI Project\AgriMind_Project\results\phase2_federated_cnn\phase2_federated_cnn_results.csv
+Phase 2,Screenshot,E:\AI Project\AgriMind_Project\screenshots\phase2_federated_cnn\phase2_centralized_vs_federated_comparison.png
+Phase 2,Screenshot,E:\AI Project\AgriMind_Project\screenshots\phase2_federated_cnn\phase2_federated_accuracy_graph.png
+Phase 2,Screenshot,E:\AI Project\AgriMind_Project\screenshots\phase2_federated_cnn\phase2_federated_confusion_matrix.png
+Phase 2,Screenshot,E:\AI Project\AgriMind_Project\screenshots\phase2_federated_cnn\phase2_federated_loss_graph.png

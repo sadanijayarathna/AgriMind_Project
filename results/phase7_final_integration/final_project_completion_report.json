@@ -94,6 +94,8 @@
         }
     ],
     "important_notes": {
+        "phase1": "Centralized CNN plant disease detection completed and included in final demo summary.",
+        "phase2": "Federated CNN plant disease detection completed and included in final demo summary.",
         "phase3": "Crop price forecasting was used as a related agricultural market price forecasting component due to limited direct pesticide/fertilizer price datasets.",
         "phase5": "RL fertilizer scheduling used a simulated farming environment.",
         "phase6": "Expert System is symbolic AI / rule-based AI and does not require ML training."
@@ -101,6 +103,7 @@
     "final_outputs": {
         "objective_mapping": "E:\\AI Project\\AgriMind_Project\\results\\phase7_final_integration\\final_objective_mapping.csv",
         "phase_results_summary": "E:\\AI Project\\AgriMind_Project\\results\\phase7_final_integration\\final_phase_results_summary.csv",
+        "phase1_phase2_demo_files": "E:\\AI Project\\AgriMind_Project\\results\\phase7_final_integration\\final_phase1_phase2_demo_files.csv",
         "demo_flow": "E:\\AI Project\\AgriMind_Project\\results\\phase7_final_integration\\final_integrated_demo_flow.csv",
         "final_advisory_example": "E:\\AI Project\\AgriMind_Project\\results\\phase7_final_integration\\final_integrated_advisory_example.json",
         "limitations": "E:\\AI Project\\AgriMind_Project\\results\\phase7_final_integration\\final_limitations_and_honest_notes.csv",

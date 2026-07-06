@@ -1,4 +1,10 @@
 Title,Path
+Phase 1 CNN Accuracy Graph,E:\AI Project\AgriMind_Project\screenshots\phase1_cnn\accuracy_graph.png
+Phase 1 CNN Loss Graph,E:\AI Project\AgriMind_Project\screenshots\phase1_cnn\loss_graph.png
+Phase 1 CNN Confusion Matrix,E:\AI Project\AgriMind_Project\screenshots\phase1_cnn\confusion_matrix.png
+Phase 2 Federated Accuracy Graph,E:\AI Project\AgriMind_Project\screenshots\phase2_federated_cnn\phase2_federated_accuracy_graph.png
+Phase 2 Federated Loss Graph,E:\AI Project\AgriMind_Project\screenshots\phase2_federated_cnn\phase2_federated_loss_graph.png
+Phase 2 Federated Confusion Matrix,E:\AI Project\AgriMind_Project\screenshots\phase2_federated_cnn\phase2_federated_confusion_matrix.png
 Phase 3 Model Comparison RMSE,E:\AI Project\AgriMind_Project\screenshots\phase3_crop_price_forecasting\phase3_model_comparison_rmse.png
 Phase 4 ANN Accuracy Graph,E:\AI Project\AgriMind_Project\screenshots\phase4_ann_improved_fertilizer_recommendation\phase4_improved_ann_accuracy_graph.png
 Phase 4 ANN Confusion Matrix,E:\AI Project\AgriMind_Project\screenshots\phase4_ann_improved_fertilizer_recommendation\phase4_improved_ann_confusion_matrix.png
