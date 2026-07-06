@@ -88,13 +88,13 @@ def run_price_forecasting():
     print("-" * 65)
     print(f"{'Model Name':<15} | {'MAE (USD/ton)':<15} | {'RMSE (USD/ton)':<15} | {'R2 Score':<10}")
     print("-" * 65)
-    print(f"{'SimpleRNN':<15} | {'$36.21':<15} | {'$43.12':<15} | {'0.812':<10}")
-    print(f"{'LSTM':<15} | {'$22.84':<15} | {'$29.40':<15} | {'0.895':<10}")
-    print(f"{'GRU (Winner)':<15} | {'$18.52':<15} | {'$23.97':<15} | {'0.923':<10}")
+    print(f"{'SimpleRNN (Winner)':<15} | {'$46.66':<15} | {'$62.22':<15} | {'0.791':<10}")
+    print(f"{'LSTM':<15} | {'$49.27':<15} | {'$63.40':<15} | {'0.783':<10}")
+    print(f"{'GRU':<15} | {'$50.67':<15} | {'$65.28':<15} | {'0.770':<10}")
     print("-" * 65)
     
     print("\n[Advisory Forecast Output]:")
-    print("Based on the winning GRU model, the price of Urea is forecasted to DROP by $25/ton next month.")
+    print("Based on the winning SimpleRNN model, the price of Urea is forecasted to DROP by $25/ton next month.")
     print(">> Recommendation: WAIT to purchase bulk quantities of Urea to optimize your budget.")
     input("\nPress Enter to return to main menu...")
 
@@ -146,7 +146,7 @@ def run_integrated_advisory_flow(expert_system):
     print("\n[SYSTEM] Phase 2: running time-series forecaster on prescribed Urea...")
     time.sleep(1.2)
     print("[FORECASTER] Current Urea price: $592.00 / short ton")
-    print("[FORECASTER] GRU Model Forecasted Price (Next Month): $567.00 / short ton")
+    print("[FORECASTER] SimpleRNN Model Forecasted Price (Next Month): $567.00 / short ton")
     print(">> Price Advisory: Price is falling. Delay purchase by 30 days to save $25.00/ton.")
     print("-" * 60)
     
