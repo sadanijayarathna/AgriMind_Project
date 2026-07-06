@@ -1,0 +1,4 @@
+Model,Final_Training_Loss,Final_Validation_Loss,Validation_Training_Gap,Diagnosis
+RNN,0.032562121748924255,0.004312509670853615,-0.02824961207807064,No strong overfitting/underfitting sign based on final losses.
+LSTM,0.03849125653505325,0.005828817840665579,-0.032662438694387674,No strong overfitting/underfitting sign based on final losses.
+GRU,0.03666219115257263,0.0043531376868486404,-0.03230905346572399,No strong overfitting/underfitting sign based on final losses.

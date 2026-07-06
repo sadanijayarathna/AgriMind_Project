@@ -1,0 +1,31 @@
+{
+    "phase": "Phase 3",
+    "module": "Agricultural Crop Price Forecasting",
+    "dataset_path": "E:\\AI Project\\AgriMind_Project\\datasets\\Fertilizer_Prize_Dataset\\crop_price_dataset.csv",
+    "dataset_source": "Kaggle Crop Price Prediction Dataset in India, saved locally as crop_price_dataset.csv. Original dataset link should be cited in the report/presentation.",
+    "selected_commodity": "Coconut",
+    "date_column": "month",
+    "target_column": "avg_modal_price",
+    "feature_columns": [
+        "avg_modal_price",
+        "avg_min_price",
+        "avg_max_price",
+        "month_sin",
+        "month_cos"
+    ],
+    "sequence_length": 6,
+    "train_validation_test_split": "70/15/15 chronological split",
+    "models": [
+        "RNN",
+        "LSTM",
+        "GRU"
+    ],
+    "best_model": "GRU",
+    "evaluation_metrics": [
+        "MAE",
+        "MSE",
+        "RMSE",
+        "MAPE",
+        "R2 Score"
+    ]
+}

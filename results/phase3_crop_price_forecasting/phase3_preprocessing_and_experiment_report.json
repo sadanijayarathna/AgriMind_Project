@@ -1,0 +1,60 @@
+{
+    "phase": "Phase 3",
+    "module": "Agricultural Crop Price Forecasting using RNN, LSTM, and GRU",
+    "honesty_note": "The dataset is an Indian crop price dataset, not a direct pesticide/fertilizer price dataset. The model demonstrates agricultural market price forecasting.",
+    "source_of_dataset": "Kaggle Crop Price Prediction Dataset in India, saved locally as crop_price_dataset.csv. Original dataset link should be cited in the report/presentation.",
+    "dataset_characteristics": {
+        "dataset_path": "E:\\AI Project\\AgriMind_Project\\datasets\\Fertilizer_Prize_Dataset\\crop_price_dataset.csv",
+        "dataset_source": "Kaggle Crop Price Prediction Dataset in India, saved locally as crop_price_dataset.csv. Original dataset link should be cited in the report/presentation.",
+        "number_of_rows": 2810,
+        "number_of_columns": 9,
+        "column_names": [
+            "month",
+            "commodity_name",
+            "avg_modal_price",
+            "avg_min_price",
+            "avg_max_price",
+            "state_name",
+            "district_name",
+            "calculationType",
+            "change"
+        ],
+        "total_missing_values": 16,
+        "duplicate_rows": 0
+    },
+    "selected_commodity": "Coconut",
+    "preprocessing_steps": {
+        "importing_libraries": true,
+        "importing_dataset": true,
+        "date_parsing": "month converted to datetime",
+        "train_validation_test_split": "70% train, 15% validation, 15% test without shuffling",
+        "handling_missing_values": "Numerical median and categorical mode",
+        "treating_outliers": "IQR clipping on price columns",
+        "duplicate_records": "Removed using drop_duplicates",
+        "feature_scaling": "MinMaxScaler for feature and target scaling",
+        "handling_categorical_variables": "LabelEncoder used for categorical columns as reference; selected commodity converted into time-series",
+        "feature_selection": "avg_modal_price selected as target; min/max price and seasonal month features selected as input features"
+    },
+    "model_development": {
+        "models": [
+            "RNN",
+            "LSTM",
+            "GRU"
+        ],
+        "overfitting_underfitting_control": [
+            "Dropout layers",
+            "EarlyStopping with restore_best_weights",
+            "ReduceLROnPlateau",
+            "Validation loss monitoring",
+            "Train/validation/test chronological split"
+        ]
+    },
+    "evaluation_metrics": [
+        "MAE",
+        "MSE",
+        "RMSE",
+        "MAPE",
+        "R2 Score"
+    ],
+    "best_model": "GRU"
+}
